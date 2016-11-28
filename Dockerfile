@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER "Pim Snel pim@lingewoud.nl>"
 
-ENV BASE_PACKAGES bash curl wget git less rsync
+ENV BASE_PACKAGES bash curl wget git less rsync zip openssh
 ENV BUILD_PACKAGES curl-dev ruby-dev build-base libffi-dev
 ENV RUBY_PACKAGES ruby ruby-io-console ruby-bundler
 ENV PYTHON_PACKAGES groff python py-pip
